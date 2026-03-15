@@ -3,11 +3,13 @@ This repository contains a full-stack, end-to-end implementation of various Reco
 
 The goal of this assignment is not just to predict user ratings with high accuracy, but to dynamically adapt to long-term user preferences and provide transparent, human-readable explanations for every recommendation.
 
-#Dataset
+Dataset
+
 Source: MovieLens 100K Dataset
 Features: User ratings, movie metadata (release year, 19 distinct genres), and engineered features (user-genre biases, global movie popularity).
 
-#Technologies & Libraries Used
+Technologies & Libraries Used
+
 Data Processing: pandas, numpy
 Traditional ML & Recommenders: scikit-learn, scikit-surprise
 Deep Learning: TensorFlow / Keras
