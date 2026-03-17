@@ -16,3 +16,26 @@ Deep Learning: TensorFlow / Keras
 Reinforcement Learning: Custom tabular Q-Learning & MAB environments
 Explainability (XAI): shap, lime
 
+Installation and Usage
+Clone the repository:
+
+Bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+Download the Dataset:
+Ensure the MovieLens dataset files (u.data, u.item) are placed in the root directory.
+
+Run the Notebooks:
+The code is structured for Google Colab or local Jupyter environments. Install the required dependencies within your environment:
+
+Bash
+pip install pandas numpy scikit-learn scikit-surprise tensorflow shap lime
+Execute the notebooks sequentially to trace the evolution from baseline models to XAI.
+
+Evaluation Metrics
+Models across all tasks are rigorously evaluated using:
+
+Root Mean Squared Error (RMSE): To measure absolute rating prediction accuracy.
+
+Precision@K & Recall@K: To measure ranking quality and the relevance of top-N recommendations.
+
